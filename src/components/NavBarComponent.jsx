@@ -49,7 +49,7 @@ export default function NavBarComponent() {
           <AppBar sx={{ padding: 2 }} position="static">
             <Container maxWidth="xxl">
               <Box
-                sx={{
+                sx={{ 
                   display: "flex",
                   justifyContent: "space-between",
                   alignItems: "center",
