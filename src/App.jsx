@@ -1,9 +1,9 @@
 import Inter from "../public/static/fonts/Inter.ttf";
-import { ThemeProvider, CssBaseline, createTheme, Box } from "@mui/material";
+import { ThemeProvider, CssBaseline, createTheme } from "@mui/material";
 import RootComponent from "./components/RootComponent";
 import RootPage from "./components/RootPage";
-import DataTable from "./test/DataTable";
-import Hello from "./test/Hello";
+// import DataTable from "./test/DataTable";
+// import Hello from "./test/Hello";
 // import "../app.css";
 import {
   Route,
@@ -19,7 +19,7 @@ import Growth from "./components/bodyComponents/growth/Growth";
 import Report from "./components/bodyComponents/report/Report";
 import Setting from "./components/bodyComponents/Settings/Setting";
 import Order from "./components/bodyComponents/order/Order";
-import OrderModal from "./components/bodyComponents/order/OrderModal";
+// import OrderModal from "./components/bodyComponents/order/OrderModal";
 
 function App() {
   const theme = createTheme({

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import "../../public/styles/links.css";
 import {
   List,
@@ -8,9 +8,9 @@ import {
   ListItemButton,
   IconButton,
   Box,
-  Snackbar,
-  Alert,
-  Button,
+  // Snackbar,
+  // Alert,
+  // Button,
 } from "@mui/material";
 import {
   HomeOutlined,
@@ -22,7 +22,7 @@ import {
   TrendingUpOutlined,
   PeopleAltOutlined,
 } from "@mui/icons-material";
-import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
+import {  useLocation, useNavigate } from "react-router-dom";
 
 export default function SideBarComponent() {
   const navigate = useNavigate();
