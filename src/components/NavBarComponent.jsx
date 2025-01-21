@@ -68,7 +68,7 @@ export default function NavBarComponent() {
                     textDecoration: "none",
                   }}
                 >
-                 GUPTA STORE
+                 RISABH STORE
                 </Typography>
 
                 <Box

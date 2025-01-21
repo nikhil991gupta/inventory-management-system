@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import RevenueCard from "./RevenueCard";
 import { Box, Grid, Paper } from "@mui/material";
 import RevenueCostChart from "./RevenueCostChart";
-// import BestsoldProductChart from "./BestSelledProductChart";
+ import BestsoldProductChart from './BestSelledProductChart.jsx';
 import BestsoldProductChartBar from "./BestselledProductChartBar";
 
 export default class Revenue extends Component {

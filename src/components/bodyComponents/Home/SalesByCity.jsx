@@ -4,7 +4,7 @@ import ApexCharts from "react-apexcharts";
 
 export default function SalesByCity() {
   const donutOption = {
-    labels: ["Oujda", "Nador", "Berkan", "Casablanca"],
+    labels: ["Ghazipur", "Muhammadabad", "Ballia", "Varanasi"],
     legend: {
       position: "right",
       fontSize: "14",
