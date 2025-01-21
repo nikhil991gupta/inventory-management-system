@@ -1,10 +1,7 @@
 import React, { Component } from "react";
 import { Box, Grid } from "@mui/material";
 
-import UilReceipt from "@iconscout/react-unicons/icons/uil-receipt";
-import UilBox from "@iconscout/react-unicons/icons/uil-box";
-import UilTruck from "@iconscout/react-unicons/icons/uil-truck";
-import UilCheckCircle from "@iconscout/react-unicons/icons/uil-check-circle";
+import { UilBox,UilReceipt, UilTruck, UilCheckCircle } from '@iconscout/react-unicons';
 import InfoCard from "../../subComponents/InfoCard";
 import TotalSales from "./TotalSales";
 import SalesByCity from "./SalesByCity";
